@@ -3,159 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Location de conteneurs 3x2, 4x2, 5x2 et Container Bar livrés & installés gratuitement chez vous en 48h – Nantes, Vendée, Loire-Atlantique">
-  <title>HomeBox Mobile | Conteneur livré & installé gratuitement chez vous</title>
+  <meta name="description" content="Location conteneur 3x2, 4x2, 5x2 et Container Bar livré chez vous en 48h – Nantes, Vendée, Loire-Atlantique">
+  <title>HomeBox Mobile | Conteneur livré & installé gratuitement</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
-    :root { --primary:#1a73e8; --green:#28a745; --dark:#222; --light:#f8f9fa; --gray:#666; }
+    :root { --primary:#1a73e8; --green:#28a745; --dark:#222; --light:#f8f9fa; }
     * { margin:0; padding:0; box-sizing:border-box; }
     body { font-family:'Inter',sans-serif; color:var(--dark); line-height:1.6; }
-    a { text-decoration:none; color:inherit; }
-
     header { background:#fff; position:sticky; top:0; z-index:1000; box-shadow:0 2px 15px rgba(0,0,0,0.1); }
     .nav { max-width:1300px; margin:auto; padding:15px 20px; display:flex; justify-content:space-between; align-items:center; }
     .logo { font-size:2rem; font-weight:900; color:var(--primary); }
     .logo span { color:var(--green); }
     .phone-btn { background:var(--primary); color:#fff; padding:12px 25px; border-radius:50px; font-weight:700; font-size:1.1rem; }
-    .phone-btn i { margin-right:8px; }
-
     .hero { background:linear-gradient(rgba(26,115,232,0.92),rgba(26,115,232,0.95)), url('https://www.conteneurmontagerapide.fr/wp-content/uploads/2024/01/FOCO-4x2-DDS-2.jpg') center/cover; color:#fff; text-align:center; padding:120px 20px; }
     .hero h1 { font-size:3rem; margin-bottom:20px; font-weight:900; }
     .hero p { font-size:1.4rem; max-width:900px; margin:0 auto 30px; }
     .cta { background:var(--green); padding:18px 40px; border-radius:50px; font-size:1.3rem; font-weight:700; }
-
     section { padding:80px 20px; max-width:1300px; margin:auto; }
     h2 { text-align:center; font-size:2.5rem; margin-bottom:60px; color:var(--dark); }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:30px; }
-    .card { background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 10px 30px rgba(0,0,0,0.1); text-align:center; transition:transform .3s; }
-    .card:hover { transform:translateY(-15px); }
-    .card img { width:100%; height:220px; object-fit:cover; }
-    .card h3 { font-size:1.6rem; margin:20px 0 10px; }
-    .price { font-size:2.2rem; font-weight:900; color:var(--green); margin:15px 0; }
-    .price small { font-size:1rem; color:var(--gray); }
-    .btn { background:var(--green); color:#fff; padding:14px 30px; border-radius:50px; display:inline-block; margin-top:15px; font-weight:600; }
-
-    .principle { background:var(--light); text-align:center; }
-    .principle i { font-size:4rem; color:var(--primary); margin-bottom:20px; }
-
-    .form-section { background:var(--light); padding:80px 20px; }
-    .form-container { max-width:800px; margin:auto; background:#fff; padding:40px; border-radius:20px; box-shadow:0 15px 40px rgba(0,0,0,0.1); }
-    .form-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
-    .form-grid input, .form-grid select, .form-grid textarea { width:100%; padding:15px; border:2px solid #ddd; border-radius:12px; font-size:1rem; }
-    .form-grid textarea { grid-column:1/-1; height:120px; }
-    .submit-btn { background:var(--green); color:#fff; padding:18px 40px; border:none; border-radius:50px; font-size:1.3rem; font-weight:700; cursor:pointer; width:100%; grid-column:1/-1; }
-    .submit-btn:hover { background:#218838; }
-
-    .options { background:#f9f9f9; }
-    .option-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; }
-    .option-card { background:#fff; padding:25px; border-radius:12px; box-shadow:0 5px 15px rgba(0,0,0,0.08); text-align:center; }
-
-    footer { background:#222; color:#fff; padding:60px 20px 20px; text-align:center; }
-    .footer-links a { color:#ccc; margin:0 15px; font-size:1.5rem; }
-
-    @media (max-width:768px) { .hero h1 { font-size:2.3rem; } .form-grid { grid-template-columns:1fr; } }
-  </style>
-</head>
-<body>
-
-  <header>
-    <div class="nav">
-      <div class="logo">Home<span>Box</span> Mobile</div>
-      <a href="tel:0645747695" class="phone-btn"><i class="fas fa-phone"></i> 06 45 74 76 95</a>
-    </div>
-  </header>
-
-  <section class="hero">
-    <h1>Votre conteneur livré & installé GRATUITEMENT chez vous en 48h</h1>
-    <p>Plus besoin d’aller à 20 km pour récupérer vos affaires – votre box est devant votre porte !</p>
-    <a href="#reservation" class="cta">Réserver maintenant</a>
-  </section>
-
-  <!-- Conteneurs stockage -->
-  <section>
-    <h2>Nos Conteneurs de Stockage</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://www.conteneurmontagerapide.fr/wp-content/uploads/2024/01/DSC01551-scaled.jpg" alt="3x2">
-        <h3>3 x 2 m</h3>
-        <div class="price">110 €<small>/mois</small></div>
-        <a href="#reservation" class="btn">Réserver</a>
-      </div>
-      <div class="card">
-        <img src="https://www.conteneurmontagerapide.fr/wp-content/uploads/2024/01/FOCO-4x2-DDS-2.jpg" alt="4x2">
-        <h3>4 x 2 m</h3>
-        <div class="price">150 €<small>/mois</small></div>
-        <a href="#reservation" class="btn">Réserver</a>
-      </div>
-      <div class="card">
-        <img src="https://www.conteneurmontagerapide.fr/wp-content/uploads/2024/01/Oostvoorne-12.jpg" alt="5x2">
-        <h3>5 x 2 m</h3>
-        <div class="price">200 €<small>/mois</small></div>
-        <a href="#reservation" class="btn">Réserver</a>
-      </div>
-    </div>
-  </section>
-
-  <section class="principle">
-    <h2>Le principe HomeBox Mobile</h2>
-    <div style="max-width:900px;margin:auto;font-size:1.2rem;">
-      <p><strong>Votre conteneur chez vous</strong> → accès 24h/24 sans déplacement</p>
-      <p style="margin:30px 0;">Livraison + installation gratuite • Montage sans grue (passe partout)</p>
-      <p style="color:var(--green);font-weight:700;">-10 % à partir du 4ème mois</p>
-    </div>
-  </section>
-
-  <!-- Container Bar -->
-  <section>
-    <h2>Container Bar 4x2 m – Événementiel</h2>
-    <div style="text-align:center;">
-      <img src="https://www.conteneurmontagerapide.fr/wp-content/uploads/2024/01/bar-conteneur-4x2-7016-1.jpg" alt="Container Bar" style="width:100%;max-width:800px;border-radius:16px;">
-      <div class="price" style="font-size:3rem;margin:30px 0;">200 €<small>/mois</small></div>
-      <a href="#reservation" class="btn" style="font-size:1.3rem;padding:18px 50px;">Louer un Container Bar</a>
-    </div>
-  </section>
-
-  <!-- Formulaire de réservation -->
-  <section class="form-section" id="reservation">
-    <h2>Réservez votre conteneur en 2 minutes</h2>
-    <div class="form-container">
-      <form action="https://formspree.io/f/mjkbzyla" method="POST">
-        <div class="form-grid">
-          <input type="text" name="nom" placeholder="Nom & Prénom" required>
-          <input type="tel" name="telephone" placeholder="Téléphone" required>
-          <input type="email" name="email" placeholder="Email" required>
-          <select name="conteneur" required>
-            <option value="">Choisir un conteneur</option>
-            <option value="3x2 - 110€/mois">3x2 m – 110 €/mois</option>
-            <option value="4x2 - 150€/mois">4x2 m – 150 €/mois</option>
-            <option value="5x2 - 200€/mois">5x2 m – 200 €/mois</option>
-            <option value="Container Bar 4x2 - 200€/mois">Container Bar – 200 €/mois</option>
-          </select>
-          <input type="text" name="adresse" placeholder="Adresse complète de livraison" required>
-          <input type="date" name="date" required>
-          <textarea name="message" placeholder="Options souhaitées (étagères, barre anti-effraction, comptoir bar...) + message"></textarea>
-          <button type="submit" class="submit-btn">Envoyer ma demande → Réponse en 5 min</button>
-        </div>
-        <input type="hidden" name="_subject" value="Nouvelle réservation HomeBox Mobile">
-        <input type="hidden" name="_next" value="https://kevinjouan15-web.github.io/homeboxmobile/merci.html">
-      </form>
-    </div>
-  </section>
-
-  <!-- Options -->
-  <section class="options">
-    <h2>Options à la carte</h2>
-    <div class="option-grid">
-      <div class="option-card">Étagères 3 niveaux → 25 €/mois</div>
-      <div class="option-card">Barre anti-effraction → 10 €/mois</div>
-      <div class="option-card">Comptoir Bar (3m) → 30 €/mois</div>
-    </div>
-  </section>
-
-  <footer>
-    <p>© 2025 HomeBox Mobile – 06 45 74 76 95 – contact@homeboxmobile.fr</p>
-  </footer>
-
-</body>
-</html>
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:35px; }
+    .card { background:#fff; border-radius
